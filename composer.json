@@ -1,0 +1,19 @@
+{
+    "name": "Alexandre3536/ecommerce",
+    "authors": [
+        {
+            "name": "Alexandre De Bortoli",
+            "email": "alexandre-debortoli@hotmail.com"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
